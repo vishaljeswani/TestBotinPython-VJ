@@ -11,8 +11,8 @@ class DefaultConfig:
     """ Bot Configuration """
 
     PORT = 3978
-    APP_ID = os.environ.get("MicrosoftAppId", "1b4cc46d-f970-47a8-96d8-849deeb250f7")
-    APP_PASSWORD = os.environ.get("MicrosoftAppPassword", "NG~jsW.B6f~y_8vQF0lMq18~3O6DYudQ72")
-    QNA_KNOWLEDGEBASE_ID = os.environ.get("QnAKnowledgebaseId","d4932eaf-3c24-4cd6-b46e-018466fd957c")
-    QNA_ENDPOINT_KEY = os.environ.get("QnAEndpointKey","4fc3219d-39f9-4437-88a2-e6e7340a6570")
-    QNA_ENDPOINT_HOST = os.environ.get("QnAEndpointHostName","https://chatbot-ks1.azurewebsites.net/qnamaker")
+    APP_ID = os.environ.get("MicrosoftAppId", "0bbcf3eb-f129-4ac6-93af-b0ab224485d6")
+    APP_PASSWORD = os.environ.get("MicrosoftAppPassword", "c022d1cf-76cd-40f9-8f56-bc88533b69c3")
+    QNA_KNOWLEDGEBASE_ID = os.environ.get("QnAKnowledgebaseId","31076320-63db-4d6c-a30a-a6ce4abc4ba5")
+    QNA_ENDPOINT_KEY = os.environ.get("QnAEndpointKey","18116bf012144730afa5db1593c72591")
+    QNA_ENDPOINT_HOST = os.environ.get("QnAEndpointHostName","https://chatbot-demo-vj.cognitiveservices.azure.com/qnamaker")
